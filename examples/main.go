@@ -21,6 +21,12 @@ var enabledExamples = map[string]exampleRunFunc{
 	"canvas_rectangle":     CanvasRectangle,
 	"canvas_text":          CanvasText,
 	"canvas_line":          CanvasLine,
+	"canvas_circle":        CanvasCircle,
+	"canvas_image":         CanvasImage,
+	"canvas_raster":        CanvasRaster,
+	"canvas_gradient":      CanvasGradient,
+	"layout_box": LayoutBox,
+	"layout_grid":LayoutGrid,
 }
 
 func init() {
